@@ -1,0 +1,22 @@
+{
+    "createReactApp": {
+        "1": "npx create-react-app ./"
+    },
+    "git": {
+        "init": "git init",
+        "addAll": "git add --all",
+        "commit": "git commit -m <'message'>",
+        "ssh-keygen": {
+            "link": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account",
+            "getPath": {
+                "macShortcut": "CTRL + click + Option(keep keydown) -> copy file as pathname",
+                "sshKeyContainerFile": ".ssh.pub* file gets generated which contains ssh key"
+            },
+            "generateSSHkey": "ssh-keygen -t ed25519 -C <'gmail'>"
+        },
+        "setRemoteToPush": {
+            "followLink": "https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories",
+            "pushCommand":"git push -u origin main"
+        }
+    }
+}
