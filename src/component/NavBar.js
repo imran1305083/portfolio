@@ -8,7 +8,7 @@ import logo from "../assets/img/logo.svg";
 import navicon1 from "../assets/img/nav-icon1.svg";
 import navicon2 from "../assets/img/nav-icon2.svg";
 import navicon3 from "../assets/img/nav-icon3.svg";
-import '../App2.css';
+
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);

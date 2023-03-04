@@ -1,24 +1,49 @@
 /* custom fonts */
 @font-face {
-    font-family: Centra;
-    src: url('./assets/font/CentraNo2-Bold.ttf');
-    font-weight: 700;
+  font-family: Centra;
+  src: url("./assets/font/CentraNo2-Bold.ttf");
+  font-weight: 700; /* question-1 */
 }
 
 @font-face {
-    font-family: Centra;
-    src: url('./assets/font/CentraNo2-Medium.ttf');
-    font-weight: 500;
+  font-family: Centra;
+  src: url("./assets/font/CentraNo2-Medium.ttf");
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: Centra;
-    src: url('./assets/font/CentraNo2-Book.ttf');
-    font-weight: 400;
+  font-family: Centra;
+  src: url("./assets/font/CentraNo2-Book.ttf");
+  font-weight: 400;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* question-2 */
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px; /* question-3 */
+}
+
+.body {
+  font-size: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #121212 !important;
+  font-family: "Cantera", sans-serif !important;
+  color: #fff !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal; /* literally line height  */
 }
