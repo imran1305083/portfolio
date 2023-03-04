@@ -16,7 +16,10 @@
         },
         "setRemoteToPush": {
             "followLink": "https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories",
-            "pushCommand":"git push -u origin main"
+            "pushCommand": "git push -u origin main"
         }
+    },
+    "project": {
+        "NavBarLink": "https://react-bootstrap.github.io/components/navbar/"
     }
 }
